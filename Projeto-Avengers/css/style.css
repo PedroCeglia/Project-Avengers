@@ -44,8 +44,8 @@ header{
     transition: all 0.4s;
 }
 #header-main .logo:hover{
-    background-color: rgba(0, 0, 0, 0.8);
-    color: rgb(156, 27, 27);
+    background-color: rgb(156, 27, 27);
+    color: rgba(255, 255, 255, 0.9);
 
     border-radius: 20px;
 }
@@ -154,9 +154,16 @@ header{
 /* Selection - Beggining */
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
+}
+main h2{
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fff;
 }
 /* Carrosel - Beggining */
 #carrosel{
@@ -273,10 +280,6 @@ main{
     transition: all 0.2s;
     filter: blur(0px);
 }
-
-
-
-
 /* Carrosel - End */
 
 /* Selection - End */
